@@ -1,24 +1,32 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
   <head>
-    <title>Hierarchy test</title>
+    <title>LudumDare</title>
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="scripts/jquery.zoomooz.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.zoomooz.js"></script>
+    <script type="text/javascript" src="scripts/GoTo.js"></script>
 
   </head>
   <body class="zoomContainer">
     <div id="a" class="zoomTarget level0">
       <div id="a1" class="zoomTarget level1">
+        <div id="heading 1" class="heading">a1</div>
         <div id="a11" class="zoomTarget level2">a11</div>
         <div id="a12" class="zoomTarget level2">a12</div>
         <div id="a13" class="zoomTarget level2">a13</div>
         <div id="a14" class="zoomTarget level2">a14</div>
       </div>
-      <div id="a2" class="zoomTarget level1">a2</div>
-      <div id="a3" class="zoomTarget level1">a3</div>
-      <div id="a4" class="zoomTarget level1">a4</div>
+      <div id="a2" class="zoomTarget level1">
+        <div id="b11" class="zoomTarget level2">b11
+          <a onclick="goTo('a11');" href="#"> Click here to go to a totally different branch </a>
+        </div>
+        <div id="b12" class="zoomTarget level2">b12</div>
+        <div id="b13" class="zoomTarget level2">b13</div>
+      </div>
+      <div id="a3" class="zoomTarget level1">b3</div>
+      <div id="a4" class="zoomTarget level1">b4</div>
     </div>
   </body>
 

@@ -4,6 +4,12 @@
   border:1px solid black;
 }
 
+.heading {
+  background: #fff;
+  float: middle;
+  height 20;
+}
+
 .level4 {
   width:40px;
   height:40px;
@@ -39,7 +45,7 @@
 }
 
 .level0 {
-  width:868px;
+  width:1368px;
   height:868px;
   left:100px;
   top:100px;
