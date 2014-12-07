@@ -11,32 +11,26 @@
   </head>
   <body class="zoomContainer">
     <div id="a" class="zoomTarget level0">
+      <div id="Kitchen" class="zoomTarget shape shape-rotation level2">This is the kitchen</div>
 
-      <div id="Chapter1" class="zoomTarget shape level1">
-        <div id="Kitchen" class="zoomTarget shape shape-rotation level2">This is the kitchen</div>
+      <div id="WakeUp" class="zoomTarget level2">
+        <img src="images/bgtest.png" class="illustration" alt="cool picture">
+        <p>
+        You wake up.  You're in your bedroom.
+
+        Where do you want to go first?
+        </p>
+
+        <go-to location="#Kitchen"> The kitchen </go-to>
+        <br/>
+        <go-to location="#Bathroom"> The Bathroom </go-to>
+        <br/>
+        <go-to location="#Outside"> Outside </go-to>
       </div>
 
-      <div id="Chapter2" class="zoomTarget level1">
+      <div id="Bathroom" class="zoomTarget level2">You're in the bathroom</div>
 
-        <div id="WakeUp" class="zoomTarget level2">
-          <img src="images/wakeup.jpg" alt="wakeup clipart" height="368" width="368">
-          <br/>
-          You wake up.  You're in your bedroom.
-          <br/>
-          Where do you want to go first?
-          <br/>
-
-          <go-to location="#Kitchen"> The kitchen </go-to>
-          <br/>
-          <go-to location="#Bathroom"> The Bathroom </go-to>
-          <br/>
-          <go-to location="#Outside"> Outside </go-to>
-        </div>
-
-        <div id="Bathroom" class="zoomTarget level2">You're in the bathroom</div>
-
-        <div id="Outside" class="zoomTarget level2">It's a beautiful day!</div>
-      </div>
+      <div id="Outside" class="zoomTarget level2">It's a beautiful day!</div>
     </div>
   </body>
 

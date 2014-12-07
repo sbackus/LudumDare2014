@@ -12,20 +12,38 @@
 
 go-to{
   cursor: pointer; cursor: hand;
+  color: blue;
 }
 
 .level2 {
-  width:640px;
-  height:640px;
-  float: left;
+  width:1000px;
+  height:400px;
   font-size: 30px;
   margin: 300px;
+
+
+  background-image: url('images/doodle.png');
+  background-repeat: no-repeat;
+  margin-top: 290px;
+  background-position: right bottom;
+  background-position-x: 100%;
+  background-position-y: 100%;
+}
+
+p{
+  margin: 40px;
+}
+
+.illustration{
+  margin-right: 20px;
+  float:left;
+  width:400px;
+  height:400px;
 }
 
 .level1 {
   width:1600px;
   height:1600px;
-  float: left;
   font-size:30px;
   font-family: Helvetica;
   font-size: 30px;
