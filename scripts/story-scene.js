@@ -1,6 +1,13 @@
 $(document).ready(function() {
 
   $(".scene-container").each(function( containerIndex ) {
+
+    for (i = 1; i<this.childElementCount; i++){
+      //hide all but the first scene
+      var thisScene = this.children[i];
+      thisScene.style.display = 'none';
+    }
+
     for (i = 0; i<this.childElementCount-1; i++){
       // add a continue button
       var thisScene = this.children[i];
@@ -15,10 +22,7 @@ $(document).ready(function() {
       });
       this.children[i].appendChild(a);
     }
-    for (i = 1; i<this.childElementCount; i++){
-      var thisScene = this.children[i];
-      thisScene.style.display = 'none';
-    }
+
   });
 
 });
