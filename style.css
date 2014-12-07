@@ -10,6 +10,10 @@
 -o-transform: rotate(-50deg) translateX(-60px);
 }
 
+go-to{
+  cursor: pointer; cursor: hand;
+}
+
 .level2 {
   width:640px;
   height:640px;
