@@ -8,7 +8,7 @@ $(document).ready(function() {
     evt.stopPropagation();
   });
 
-$("#WakeUp").zoomTo({targetsize:0.75, duration:600});
-$("#WakeUp").click();
+$("#Intro").zoomTo({targetsize:0.75, duration:600});
+$("#Intro").click();
 });
 
