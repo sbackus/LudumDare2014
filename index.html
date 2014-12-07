@@ -10,25 +10,39 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="scripts/jquery.zoomooz.js"></script>
     <script type="text/javascript" src="scripts/GoTo.js"></script>
+    <script type="text/javascript" src="scripts/story-scene.js"></script>
 
   </head>
   <body class="zoomContainer">
     <div id="a" class="zoomTarget level0">
       <div id="Kitchen" class="zoomTarget shape shape-rotation level2">This is the kitchen</div>
 
-      <div id="WakeUp" class="zoomTarget level2">
-        <img src="images/bgtest.png" class="illustration" alt="cool picture">
-        <p>
-        You wake up.  You're in your bedroom.
+      <div id="WakeUp" class="zoomTarget level2 scene-container">
+        <div part="0" class="story-scene">
+          <img src="images/bgtest.png" class="illustration" alt="cool picture">
+          <p>
+          You wake up.  You're in your bedroom.
 
-        Where do you want to go first?
-        </p>
+          You are tired and groggy.
+          </p>
+        </div>
 
-        <go-to location="#Kitchen"> The kitchen </go-to>
-        <br/>
-        <go-to location="#Bathroom"> The Bathroom </go-to>
-        <br/>
-        <go-to location="#Outside"> Outside </go-to>
+        <div part="1" class="story-scene">
+          <img src="images/GenericCircle.png" class="illustration" alt="cool picture">
+          <p>
+          You wake up.  You're in your bedroom.
+
+          Where do you want to go first?
+          </p>
+
+          <go-to location="#Kitchen"> The kitchen </go-to>
+          <br/>
+          <go-to location="#Bathroom"> The Bathroom </go-to>
+          <br/>
+          <go-to location="#Outside"> Outside </go-to>
+        </div>
+
+
       </div>
 
       <div id="Bathroom" class="zoomTarget level2">You're in the bathroom</div>
