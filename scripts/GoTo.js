@@ -9,6 +9,6 @@ $(document).ready(function() {
   });
 
 $("#WakeUp").zoomTo({targetsize:0.75, duration:600});
-$("#WakeUp").click()
+$("#WakeUp").click();
 });
 

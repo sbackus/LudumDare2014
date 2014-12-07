@@ -1,13 +1,8 @@
 $(document).ready(function() {
 
-  $(".story-scene").each(function( index ) {
-    if(this.getAttribute("part")!=0){
-      this.style.display = 'none';
-    }
-  });
-
   $(".scene-container").each(function( containerIndex ) {
     for (i = 0; i<this.childElementCount-1; i++){
+      // add a continue button
       var thisScene = this.children[i];
       var nextScene = this.children[i+1];
       var a = document.createElement('a');
@@ -20,7 +15,10 @@ $(document).ready(function() {
       });
       this.children[i].appendChild(a);
     }
-
+    for (i = 1; i<this.childElementCount; i++){
+      var thisScene = this.children[i];
+      thisScene.style.display = 'none';
+    }
   });
 
 });
