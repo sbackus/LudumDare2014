@@ -1,52 +1,36 @@
 .level0, .level1, .level2 .level3 .level4{
   margin-left:10px;
   margin-top:10px;
-  border:1px solid black;
 }
 
-.heading {
-  background: #fff;
-  float: middle;
-  height 20;
-}
-
-.level4 {
-  width:40px;
-  height:40px;
-  float: left;
-  background: #aaa;
-  font-size: 5px
-}
-
-.level3 {
-  width:80px;
-  height:80px;
-  float: left;
-  background: #aaa;
-  font-size: 10px
+.shape-rotation {
+-webkit-transform: rotate(-50deg) translateX(-60px);
+-moz-transform: rotate(-50deg) translateX(-60px);
+-ms-transform: rotate(-50deg) translateX(-60px);
+-o-transform: rotate(-50deg) translateX(-60px);
 }
 
 .level2 {
-  width:160px;
-  height:160px;
+  width:640px;
+  height:640px;
   float: left;
-  background: #aaa;
-  font-size: 20px
+  font-size: 30px;
+  margin: 300px;
 }
 
 .level1 {
-  width:400px;
-  height:400px;
-  background: #ddd;
+  width:1600px;
+  height:1600px;
   float: left;
   font-size:30px;
   font-family: Helvetica;
-  font-size: 30px
+  font-size: 30px;
+  margin:300px;
 }
 
 .level0 {
-  width:1368px;
-  height:868px;
+  width:5472px;
+  height:3472px;
   left:100px;
   top:100px;
   position:absolute;
