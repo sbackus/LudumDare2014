@@ -30,14 +30,16 @@ body{
   height:400px;
   font-size: 30px;
   margin: 300px;
+}
 
-
+.text{
   background-image: url('images/doodle.png');
   background-repeat: no-repeat;
-  margin-top: 290px;
   background-position: right bottom;
   background-position-x: 100%;
   background-position-y: 100%;
+  background-size: 60%;
+  height: 420px;
 }
 
 p{

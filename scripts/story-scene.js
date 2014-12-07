@@ -20,7 +20,7 @@ $(document).ready(function() {
         thisScene.style.display = 'none';
         nextScene.style.display = 'block';
       });
-      this.children[i].appendChild(a);
+      this.children[i].children[1].appendChild(a);
     }
 
   });

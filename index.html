@@ -15,38 +15,54 @@
   </head>
   <body class="zoomContainer">
     <div id="a" class="zoomTarget level0">
-      <div id="Kitchen" class="zoomTarget shape shape-rotation level2">This is the kitchen</div>
+      <div id="Kitchen" class="zoomTarget shape shape-rotation level2">
+        <div class="text">
+          This is the kitchen
+        </div>
+      </div>
 
       <div id="WakeUp" class="zoomTarget level2 scene-container">
-        <div class="story-scene">
+        <div class="scene">
           <img src="images/bgtest.png" class="illustration" alt="cool picture">
-          <p>
-          You wake up.  You're in your bedroom.
+          <div class="text">
+            <p>
+            You wake up.  You're in your bedroom.
 
-          You are tired and groggy.
-          </p>
+            You are tired and groggy.
+            </p>
+          </div>
         </div>
 
-        <div class="story-scene">
+        <div class="scene">
           <img src="images/GenericCircle.png" class="illustration" alt="cool picture">
-          <p>
+          <div class="text">
+            <p>
 
-          Where do you want to go first?
-          </p>
+            Where do you want to go first?
+            </p>
 
-          <go-to location="#Kitchen"> The kitchen </go-to>
-          <br/>
-          <go-to location="#Bathroom"> The Bathroom </go-to>
-          <br/>
-          <go-to location="#Outside"> Outside </go-to>
+            <go-to location="#Kitchen"> The kitchen </go-to>
+            <br/>
+            <go-to location="#Bathroom"> The Bathroom </go-to>
+            <br/>
+            <go-to location="#Outside"> Outside </go-to>
+          </div>
         </div>
 
 
       </div>
 
-      <div id="Bathroom" class="zoomTarget level2">You're in the bathroom</div>
+      <div id="Bathroom" class="zoomTarget level2">
+        <div class="text">
+          You're in the bathroom
+        </div>
+      </div>
 
-      <div id="Outside" class="zoomTarget level2">It's a beautiful day!</div>
+      <div id="Outside" class="zoomTarget level2">
+        <div class="text">
+          It's a beautiful day!
+        </div>
+      </div>
     </div>
   </body>
 
