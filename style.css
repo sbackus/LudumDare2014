@@ -15,6 +15,10 @@ go-to{
   color: blue;
 }
 
+body{
+  font-family: Ubuntu, sans-serif;
+}
+
 .level2 {
   width:1000px;
   height:400px;
