@@ -13,8 +13,10 @@ $(document).ready(function() {
       var thisScene = this.children[i];
       var nextScene = this.children[i+1];
       var a = document.createElement('a');
-      var linkText = document.createTextNode("Continue");
-      a.appendChild(linkText);
+      var linkImg = document.createElement("img");
+      linkImg.setAttribute('src', 'images/nextButton.png');
+      linkImg.setAttribute('alt', 'Next');
+      a.appendChild(linkImg);
       a.className = "continue";
       a.addEventListener("click", function(){
         thisScene.style.display = 'none';
