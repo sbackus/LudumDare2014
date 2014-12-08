@@ -19,6 +19,8 @@ $(document).ready(function() {
       a.appendChild(linkImg);
       a.className = "continue";
       a.addEventListener("click", function(){
+        // alert(thisScene.innerHTML);
+        // alert(nextScene.innerHTML);
         thisScene.style.display = 'none';
         nextScene.style.display = 'block';
       });

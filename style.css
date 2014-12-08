@@ -35,7 +35,7 @@ body{
 .level2 {
   width:1000px;
   height:400px;
-  font-size: 25px;
+  font-size: 20px;
   margin: 200px;
 }
 
@@ -51,6 +51,8 @@ body{
 
 p{
   margin: 40px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .illustration{
@@ -65,7 +67,7 @@ p{
   height:1600px;
   font-size:30px;
   font-family: Helvetica;
-  font-size: 30px;
+  font-size: 28px;
   margin:300px;
   float:left;
 }
