@@ -1,5 +1,20 @@
 $(document).ready(function() {
 
+
+  $("#end").click(function(evt) {
+    $(".scene-container").each(function( containerIndex ) {
+
+      for (i = 1; i<this.childElementCount; i++){
+        //hide all but the first scene
+        var thisScene = this.children[i];
+        thisScene.style.display = 'none';
+      }
+      //show the first scene
+      var thisScene = this.children[0];
+      thisScene.style.display = 'block';
+    });
+  });
+
   $(".scene-container").each(function( containerIndex ) {
 
     for (i = 1; i<this.childElementCount; i++){
