@@ -4,17 +4,17 @@
 }
 
 .shape-rotation-left {
--webkit-transform: rotate(-50deg) translateX(-60px);
--moz-transform: rotate(-50deg) translateX(-60px);
--ms-transform: rotate(-50deg) translateX(-60px);
--o-transform: rotate(-50deg) translateX(-60px);
+-webkit-transform: rotate(-40deg) translateY(600px) translateX(-450px);
+-moz-transform: rotate(-40deg) translateY(600px) translateX(-450px);
+-ms-transform: rotate(-40deg) translateY(600px) translateX(-450px);
+-o-transform: rotate(-40deg) translateY(600px) translateX(-450px);
 }
 
 .shape-rotation-right {
--webkit-transform: rotate(50deg) translateX(60px);
--moz-transform: rotate(50deg) translateX(60px);
--ms-transform: rotate(50deg) translateX(60px);
--o-transform: rotate(50deg) translateX(60px);
+-webkit-transform: rotate(40deg) translateX(60px);
+-moz-transform: rotate(40deg) translateX(60px);
+-ms-transform: rotate(40deg) translateX(60px);
+-o-transform: rotate(40deg) translateX(60px);
 }
 
 go-to{
@@ -24,7 +24,7 @@ go-to{
 
 a.continue{
   cursor: pointer; cursor: hand;
-  color: blue;
+  color: #628dee;
 }
 
 body{
@@ -36,7 +36,7 @@ body{
   width:1000px;
   height:400px;
   font-size: 25px;
-  margin: 300px;
+  margin: 200px;
 }
 
 .text{
@@ -67,6 +67,7 @@ p{
   font-family: Helvetica;
   font-size: 30px;
   margin:300px;
+  float:left;
 }
 
 .level0 {
