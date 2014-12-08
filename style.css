@@ -36,7 +36,7 @@ body{
   width:1000px;
   height:400px;
   font-size: 20px;
-  margin: 200px;
+  margin: 400px;
 }
 
 .text{
@@ -72,7 +72,7 @@ p{
 }
 
 .level0 {
-  width:9472px;
+  width:12472px;
   height:3472px;
   position:absolute;
   font-size: 40px;
