@@ -3,11 +3,18 @@
   margin-top:10px;
 }
 
-.shape-rotation {
+.shape-rotation-left {
 -webkit-transform: rotate(-50deg) translateX(-60px);
 -moz-transform: rotate(-50deg) translateX(-60px);
 -ms-transform: rotate(-50deg) translateX(-60px);
 -o-transform: rotate(-50deg) translateX(-60px);
+}
+
+.shape-rotation-right {
+-webkit-transform: rotate(50deg) translateX(60px);
+-moz-transform: rotate(50deg) translateX(60px);
+-ms-transform: rotate(50deg) translateX(60px);
+-o-transform: rotate(50deg) translateX(60px);
 }
 
 go-to{
@@ -63,7 +70,7 @@ p{
 }
 
 .level0 {
-  width:5472px;
+  width:9472px;
   height:3472px;
   left:100px;
   top:100px;
