@@ -9,20 +9,22 @@ $(document).ready(function() {
     }
 
     for (i = 0; i<this.childElementCount-1; i++){
-      // add a continue button
-      var thisScene = this.children[i];
-      var nextScene = this.children[i+1];
       var a = document.createElement('a');
       var linkImg = document.createElement("img");
       linkImg.setAttribute('src', 'images/nextButton.png');
       linkImg.setAttribute('alt', 'Next');
       a.appendChild(linkImg);
       a.className = "continue";
-      a.addEventListener("click", function(){
-        // alert(thisScene.innerHTML);
-        // alert(nextScene.innerHTML);
-        thisScene.style.display = 'none';
-        nextScene.style.display = 'block';
+      a.addEventListener("click", function(e){
+
+        //this is super hacky
+        var thisScene = e.target.parentNode.parentNode.parentNode; // clicked element
+        var idOfNextScene = thisScene.id.slice(0,-1) + (parseInt(thisScene.id.slice(-1))+1);
+        var target = document.getElementById(idOfNextScene);
+        Array.prototype.filter.call(target.parentNode.children, function (siblings) {
+          siblings.style.display = 'none';
+        });
+        target.style.display = 'block';
       });
       this.children[i].children[1].appendChild(a);
     }

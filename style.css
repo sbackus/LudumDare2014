@@ -68,15 +68,12 @@ p{
   font-size:30px;
   font-family: Helvetica;
   font-size: 28px;
-  margin:300px;
   float:left;
 }
 
 .level0 {
   width:9472px;
   height:3472px;
-  left:100px;
-  top:100px;
   position:absolute;
-  font-size: 40px
+  font-size: 40px;
 }

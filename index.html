@@ -17,7 +17,7 @@
     <div id="fullScreen" class="zoomTarget level0">
       <div id="Chapter1" class="zoomTarget level1">
         <div id="Intro" class="zoomTarget level2 scene-container">
-          <div class="scene">
+          <div id="IntroPart1">
             <img src="images/bgs/cabin.png" class="illustration" alt="cool picture">
             <div class="text">
               <p>
@@ -26,18 +26,7 @@
             </div>
           </div>
 
-
-     <!--      <div class="scene">
-            <img src="images/bgs/cabin.png" class="illustration" alt="cool picture">
-            <div class="text">
-              <p>
-              Another Scene
-              </p>
-            </div>
-          </div> -->
-
-
-          <div class="scene">
+          <div id="IntroPart2">
             <img src="images/bgs/cabin.png" class="illustration" alt="cabin">
             <div class="text">
               <p>
@@ -47,16 +36,16 @@
               <go-to location="#Android1" >
                 <img src="images/nextButton.png" alt="next" >
               </go-to>
-<!--               <br/>
-              <go-to location="#Biologist"> Biologist </go-to>
+              <!-- <br/>
+              <go-to location="#Biologist1"> Biologist </go-to>
               <br/>
-              <go-to location="#Pastor"> Pastor </go-to> -->
+              <go-to locati on="#Pastor1"> Pastor </go-to>-->
             </div>
           </div>
         </div>
 
         <div id="Android1" class="zoomTarget shape shape-rotation-left level2 scene-container">
-          <div class="scene">
+          <div id="Android1part1">
             <img src="images/Miranda/Scene_One_A.png" class="illustration" alt="cabin">
             <div class="text">
               <p>
@@ -67,7 +56,7 @@
               </p>
             </div>
           </div>
-          <div class="scene">
+          <div id="Android1part2">
             <img src="images/Miranda/Scene_One_B.png" class="illustration" alt="cabin">
             <div class="text">
               <p>
@@ -85,7 +74,7 @@
         </div>
 
         <div id="Biologist1" class="zoomTarget shape shape-rotation-left level2 scene-container">
-          <div class="scene">
+          <div id="Biologist1Part1">
             <img src="images/Chamoun/Scene_One_A.png" class="illustration" alt="cabin">
             <div class="text">
               <p>
@@ -100,7 +89,7 @@
             </div>
           </div>
 
-          <div class="scene">
+          <div id="Biologist1Part2">
             <img src="images/Chamoun/Scene_One_B.png" class="illustration" alt="cabin">
             <div class="text">
               <p>
@@ -118,7 +107,7 @@
         </div>
 
         <div id="Pastor1" class="zoomTarget shape shape-rotation-left level2 scene-container">
-          <div class="scene">
+          <div id="Pastor1Part1">
             <img src="images/Ali/Scene_One_A.png" class="illustration" alt="Pastor">
             <div class="text">
               <p>
@@ -130,7 +119,7 @@
             </div>
           </div>
 
-          <div class="scene">
+          <div id="Pastor1Part2">
             <img src="images/Ali/Scene_One_B.png" class="illustration" alt="cabin">
             <div class="text">
               <p>
@@ -150,23 +139,106 @@
 
         </div>
 
+      </div>
       <div id="Chapter2" class="zoomTarget level1">
 
-        <div id="Android2" class="zoomTarget shape shape-rotation-right level2">
-          <div class="text">
-              Android2
+        <div id="Biologist2" class="zoomTarget shape shape-rotation-right level2 scene-container">
+          <div id="Biologist2Part1">
+            <img src="images/Chamoun/Scene_Two_A.png" class="illustration" alt="Chamoun">
+            <div class="text">
+              <p>
+                The next morning you meet Dr Chamoun for a tour of the colony greenhouse.
+              </p>
+              <p>
+                Dr: The greenhouse looks much more like something you'd see back on earth or one of the developed planets. Currently we've have a crop of Tomatoes almost ready to harvest, but even with the compressed growth cycle the greenhouse can't produce material as quickly as some of our other efforts.
+              </p>
+              <p>
+                You walk on in silence for a time.
+              </p>
+            </div>
+          </div>
+
+          <div id="Biologist2Part2">
+            <img src="images/Chamoun/Scene_Two_B.png" class="illustration" alt="Chamoun">
+            <div class="text">
+              <p>
+                Dr: [Bending down near one of the larger Tomatoes to pack some soil around the base of the plant] : Feed me, Seymour, Feed me.
+              </p>
+              <p>
+                You: ???
+              </p>
+              <p>
+                Dr: A line from Little Shop of Horrors.
+              </p>
+              <p>
+                You: ???
+              </p>
+              <p>
+                Dr: An old musical comedy that features a talking plant. Scientifically inaccurate of course, but a wonderful show all the same.
+              </p>
+            </div>
+          </div>
+
+          <div id="Biologist2Part3">
+            <img src="images/Chamoun/Scene_Two_C.png" class="illustration" alt="Chamoun">
+            <div class="text">
+              <p>
+                You spend the remaining tour of the greenhouse learning about growth optimization and the old movies the biologist likes to unearth from the cultural archive.
+              </p>
+              <go-to location="#Android2">
+                <img src="images/nextButton.png" alt="next" >
+              </go-to>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="Android2" class="zoomTarget shape shape-rotation-right level2 scene-container">
+          <div id="Android2Part1">
+            <img src="images/Miranda/Scene_Two_A.png" class="illustration" alt="Chamoun">
+            <div class="text">
+              <p>
+                TB: Hello again.  Don't you think its fishy that there is currently only one marine biologist for the entire colony?  There dolphinitly should be a higher priority on aquatic matters.  Its probably a fluke of some sort, maybe mention it to Dr Chamoun at some point.
+              </p>
+            </div>
+          </div>
+
+          <div id="Android2Part2">
+            <img src="images/Miranda/Scene_Two_B.png" class="illustration" alt="Chamoun">
+            <div class="text">
+              <p>
+                Seems like Miranda just wants to talk about fish. You spend the rest of the meeting talking about aquatic life and the colony fish hatchery afterward you head over to the common room to find Ali.
+              </p>
+              <go-to location="#Pastor2">
+                <img src="images/nextButton.png" alt="next" >
+              </go-to>
+            </div>
           </div>
         </div>
 
-        <div id="Biologist2" class="zoomTarget shape shape-rotation-right level2">
-          <div class="text">
-            Biologist2
+        <div id="Pastor2" class="zoomTarget shape shape-rotation-right level2 scene-container">
+          <div id="Pastor2Part1">
+            <img src="images/Ali/Scene_Two_A.png" class="illustration" alt="Ali">
+            <div class="text">
+              <p>
+                Min: It's good to see you again. How have you been? Working hard on getting our little outpost into the historical archives I hope?
+              </p>
+              <p>
+                You: It takes time, just lately I've been touring the greenhouse with Dr Chamoun. It feels a bit odd to be writing things down when everyone else is so focused on keeping things running.
+              </p>
+            </div>
           </div>
-        </div>
 
-        <div id="Pastor2" class="zoomTarget shape shape-rotation-right level2">
-          <div class="text">
-            Pastor2
+          <div id="Pastor2Part2">
+            <img src="images/Ali/Scene_Two_B.png" class="illustration" alt="Ali">
+            <div class="text">
+              <p>
+                Min: Just as you say; it takes time. I've found my role frustrating from time to time, but then I remember I'm 137 light years from home and I get to see a new world take shape.
+              </p>
+              <go-to location="#fullScreen">
+                <img src="images/nextButton.png" alt="next" >
+              </go-to>
+            </div>
           </div>
         </div>
       </div>
