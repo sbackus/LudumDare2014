@@ -21,13 +21,6 @@ go-to{
   cursor: pointer; cursor: hand;
   color: #628dee;
   font-size: 150%;
-  float:right;
-}
-
-go-to-choice{
-  cursor: pointer; cursor: hand;
-  color: #628dee;
-  font-size: 150%;
 }
 
 a.continue{
